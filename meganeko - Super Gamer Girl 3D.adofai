@@ -67,7 +67,6 @@
 		{ "floor": 26, "eventType": "Twirl" },
 		{ "floor": 39, "eventType": "PositionTrack", "positionOffset": [0, 0], "editorOnly": "Disabled" },
 		{ "floor": 41, "eventType": "Twirl" },
-		{ "floor": 45, "eventType": "PositionTrack", "positionOffset": [0, 11], "editorOnly": "Disabled" },
 		{ "floor": 49, "eventType": "Twirl" },
 		{ "floor": 52, "eventType": "Twirl" },
 		{ "floor": 55, "eventType": "Twirl" },
