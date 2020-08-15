@@ -1,5 +1,5 @@
 ﻿{
-	"pathData": "RRTLTTRFHLJLJLJLJLJLJLJLJRRHRHRHRHRHRHRRURDLURNLLMRRNLLMRRNLLMRRNLLMRDRNLLMRRNLLMRRNLLMRRNLDRULDRRRRRRREURRR", 
+	"pathData": "RRTLTTRFHLJLJLJLJLJLJLJLJRRHRHRHRHRHRHRRURDLURNLLMRRNLLMRRNLLMRRNLLMRDRNLLMRRNLLMRRNLLMRRNLDRULDRRRRRRREURRRRRRREURRRRRRREURRRRRRREURRRRRRREURR", 
 	"settings":
 	{
 		"version": 2, 
@@ -86,6 +86,15 @@
 		{ "floor": 89, "eventType": "Twirl" },
 		{ "floor": 91, "eventType": "Twirl" },
 		{ "floor": 97, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
-		{ "floor": 105, "eventType": "Twirl" }
+		{ "floor": 105, "eventType": "Twirl" },
+		{ "floor": 106, "eventType": "Twirl" },
+		{ "floor": 114, "eventType": "Twirl" },
+		{ "floor": 115, "eventType": "Twirl" },
+		{ "floor": 123, "eventType": "Twirl" },
+		{ "floor": 124, "eventType": "Twirl" },
+		{ "floor": 132, "eventType": "Twirl" },
+		{ "floor": 133, "eventType": "Twirl" },
+		{ "floor": 141, "eventType": "Twirl" },
+		{ "floor": 142, "eventType": "Twirl" }
 	]
 }
