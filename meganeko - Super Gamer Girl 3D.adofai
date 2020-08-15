@@ -23,7 +23,7 @@
 		"volume": 100, 
 		"offset": 270, 
 		"pitch": 100, 
-		"hitsound": "Kick", 
+		"hitsound": "Hat", 
 		"hitsoundVolume": 100, 
 		"countdownTicks": 4,
 		"trackColorType": "Single", 
@@ -60,10 +60,12 @@
 	"actions":
 	[
 		{ "floor": 1, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
+		{ "floor": 2, "eventType": "SetHitsound", "hitsound": "Sizzle", "hitsoundVolume": 100 },
 		{ "floor": 3, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
 		{ "floor": 4, "eventType": "Twirl" },
 		{ "floor": 9, "eventType": "SetSpeed", "speedType": "Bpm", "beatsPerMinute": 157.5, "bpmMultiplier": 1 },
 		{ "floor": 10, "eventType": "SetSpeed", "speedType": "Bpm", "beatsPerMinute": 270, "bpmMultiplier": 1 },
+		{ "floor": 10, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 },
 		{ "floor": 26, "eventType": "Twirl" },
 		{ "floor": 39, "eventType": "PositionTrack", "positionOffset": [0, 0], "editorOnly": "Disabled" },
 		{ "floor": 41, "eventType": "Twirl" },
@@ -85,6 +87,7 @@
 		{ "floor": 89, "eventType": "Twirl" },
 		{ "floor": 91, "eventType": "Twirl" },
 		{ "floor": 97, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
+		{ "floor": 97, "eventType": "SetHitsound", "hitsound": "Chuck", "hitsoundVolume": 100 },
 		{ "floor": 105, "eventType": "Twirl" },
 		{ "floor": 106, "eventType": "Twirl" },
 		{ "floor": 114, "eventType": "Twirl" },
@@ -94,6 +97,7 @@
 		{ "floor": 132, "eventType": "Twirl" },
 		{ "floor": 133, "eventType": "Twirl" },
 		{ "floor": 141, "eventType": "Twirl" },
-		{ "floor": 142, "eventType": "Twirl" }
+		{ "floor": 142, "eventType": "Twirl" },
+		{ "floor": 142, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 }
 	]
 }
