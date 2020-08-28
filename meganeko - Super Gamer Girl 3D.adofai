@@ -65,10 +65,10 @@
 		{ "floor": 4, "eventType": "Twirl" },
 		{ "floor": 8, "eventType": "Twirl" },
 		{ "floor": 9, "eventType": "SetSpeed", "speedType": "Bpm", "beatsPerMinute": 120, "bpmMultiplier": 1 },
-		{ "floor": 10, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 },
 		{ "floor": 10, "eventType": "SetSpeed", "speedType": "Bpm", "beatsPerMinute": 135, "bpmMultiplier": 1 },
 		{ "floor": 26, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
 		{ "floor": 28, "eventType": "Twirl" },
+		{ "floor": 33, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 },
 		{ "floor": 36, "eventType": "Twirl" },
 		{ "floor": 39, "eventType": "Twirl" },
 		{ "floor": 42, "eventType": "Twirl" },
@@ -85,6 +85,7 @@
 		{ "floor": 75, "eventType": "Twirl" },
 		{ "floor": 76, "eventType": "Twirl" },
 		{ "floor": 83, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
+		{ "floor": 83, "eventType": "SetHitsound", "hitsound": "Chuck", "hitsoundVolume": 100 },
 		{ "floor": 91, "eventType": "Twirl" },
 		{ "floor": 92, "eventType": "Twirl" },
 		{ "floor": 100, "eventType": "Twirl" },
@@ -95,6 +96,7 @@
 		{ "floor": 119, "eventType": "Twirl" },
 		{ "floor": 127, "eventType": "Twirl" },
 		{ "floor": 128, "eventType": "Twirl" },
-		{ "floor": 144, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 }
+		{ "floor": 128, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 }
+		{ "floor": 144, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
 	]
 }
