@@ -1,5 +1,5 @@
 ﻿{
-	"pathData": "RRTLTTRFMRRRRRRRRUZRRRRRRRRURDLURRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRDRULDRULLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLDRULDRULDRULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUU", 
+	"pathData": "RRTLTTRFMRRRRRRRRUZRRRRRRRRURDLURRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRDRULDRULLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLDRULDRULDRULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLR", 
 	"settings":
 	{
 		"version": 2, 
@@ -48,7 +48,7 @@
 		"relativeTo": "Player", 
 		"position": [0, 0], 
 		"rotation": 0, 
-		"zoom": 100,
+		"zoom": 120,
 		"bgVideo": "", 
 		"loopVideo": "Disabled", 
 		"vidOffset": 0, 
@@ -119,6 +119,18 @@
 		{ "floor": 252, "eventType": "Twirl" },
 		{ "floor": 256, "eventType": "Twirl" },
 		{ "floor": 260, "eventType": "Twirl" },
-		{ "floor": 263, "eventType": "Twirl" }
+		{ "floor": 263, "eventType": "Twirl" },
+		{ "floor": 272, "eventType": "PositionTrack", "positionOffset": [0, 1], "editorOnly": "Enabled" },
+		{ "floor": 276, "eventType": "Twirl" },
+		{ "floor": 283, "eventType": "Twirl" },
+		{ "floor": 301, "eventType": "Twirl" },
+		{ "floor": 307, "eventType": "Twirl" },
+		{ "floor": 311, "eventType": "Twirl" },
+		{ "floor": 324, "eventType": "Twirl" }
+		{ "floor": 328, "eventType": "Twirl" },
+		{ "floor": 335, "eventType": "Twirl" },
+		{ "floor": 353, "eventType": "Twirl" },
+		{ "floor": 359, "eventType": "Twirl" },
+		{ "floor": 363, "eventType": "Twirl" },
 	]
 }
