@@ -1,5 +1,5 @@
 ﻿{
-	"pathData": "RRTLTTRFMRRRRRRRRUZRRRRRRRRURDLURRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRDRULDRULLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLDRULDRULDRULRRU", 
+	"pathData": "RRTLTTRFMRRRRRRRRUZRRRRRRRRURDLURRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRDRULDRULLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLDRULDRULDRULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUU", 
 	"settings":
 	{
 		"version": 2, 
@@ -96,7 +96,29 @@
 		{ "floor": 119, "eventType": "Twirl" },
 		{ "floor": 127, "eventType": "Twirl" },
 		{ "floor": 128, "eventType": "Twirl" },
-		{ "floor": 128, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 }
+		{ "floor": 128, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 },
 		{ "floor": 144, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
+		{ "floor": 180, "eventType": "PositionTrack", "positionOffset": [0, 1], "editorOnly": "Enabled" },
+		{ "floor": 181, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 },
+		{ "floor": 184, "eventType": "Twirl" },
+		{ "floor": 186, "eventType": "Twirl" },
+		{ "floor": 190, "eventType": "Twirl" },
+		{ "floor": 193, "eventType": "Twirl" },
+		{ "floor": 202, "eventType": "Twirl" },
+		{ "floor": 204, "eventType": "Twirl" },
+		{ "floor": 206, "eventType": "Twirl" },
+		{ "floor": 210, "eventType": "Twirl" },
+		{ "floor": 214, "eventType": "Twirl" },
+		{ "floor": 217, "eventType": "Twirl" },
+		{ "floor": 230, "eventType": "Twirl" },
+		{ "floor": 232, "eventType": "Twirl" },
+		{ "floor": 236, "eventType": "Twirl" },
+		{ "floor": 239, "eventType": "Twirl" },
+		{ "floor": 248, "eventType": "Twirl" },
+		{ "floor": 250, "eventType": "Twirl" },
+		{ "floor": 252, "eventType": "Twirl" },
+		{ "floor": 256, "eventType": "Twirl" },
+		{ "floor": 260, "eventType": "Twirl" },
+		{ "floor": 263, "eventType": "Twirl" }
 	]
 }
