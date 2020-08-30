@@ -1,5 +1,5 @@
 ﻿{
-	"pathData": "RRTLTTRFMRRRRRRRRUZRRRRRRRRURDLURRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRDRULDRULLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLDRULDRULDRULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLR", 
+	"pathData": "RRTLTTRFMRRRRRRRRUZRRRRRRRRURDLURRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRDRULDRULLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLDRULDRULDRULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLRRRRRRRRRRRRRRRRRRRDRRRDLUURUURDRRRULDDRDDRURRRDLUURUURDRRRRDDLUURDR", 
 	"settings":
 	{
 		"version": 2, 
@@ -126,11 +126,28 @@
 		{ "floor": 301, "eventType": "Twirl" },
 		{ "floor": 307, "eventType": "Twirl" },
 		{ "floor": 311, "eventType": "Twirl" },
-		{ "floor": 324, "eventType": "Twirl" }
+		{ "floor": 324, "eventType": "Twirl" },
 		{ "floor": 328, "eventType": "Twirl" },
 		{ "floor": 335, "eventType": "Twirl" },
 		{ "floor": 353, "eventType": "Twirl" },
 		{ "floor": 359, "eventType": "Twirl" },
 		{ "floor": 363, "eventType": "Twirl" },
+		{ "floor": 376, "eventType": "PositionTrack", "positionOffset": [0, -6], "editorOnly": "Enabled" },
+		{ "floor": 376, "eventType": "Twirl" },
+		{ "floor": 377, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
+		{ "floor": 389, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
+		{ "floor": 397, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
+		{ "floor": 399, "eventType": "Twirl" },
+		{ "floor": 404, "eventType": "Twirl" },
+		{ "floor": 406, "eventType": "Twirl" },
+		{ "floor": 408, "eventType": "Twirl" },
+		{ "floor": 416, "eventType": "Twirl" },
+		{ "floor": 418, "eventType": "Twirl" },
+		{ "floor": 420, "eventType": "Twirl" },
+		{ "floor": 428, "eventType": "Twirl" },
+		{ "floor": 430, "eventType": "Twirl" },
+		{ "floor": 432, "eventType": "Twirl" },
+		{ "floor": 436, "eventType": "Twirl" },
+		{ "floor": 443, "eventType": "Twirl" }
 	]
 }
