@@ -1,5 +1,5 @@
 ﻿{
-	"pathData": "RRTLTTRFMRRRRRRRRUZRRRRRRRRURDLURRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRDRULDRULLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLDRULDRULDRULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLRRRRRRRRRRRRRRRRRRRDRRRDLUURUURDRRRULDDRDDRURRRDLUURUURDRRRRDDLUURDRRRDLUURUURDRRRULDDRDDRURRRDLUURUURDRRRRDDLUURDRRRRRL", 
+	"pathData": "RRTLTTRFMRRRRRRRRUZRRRRRRRRURDLURRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRDRULDRULLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLDRULDRULDRULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLRRRRRRRRRRRRRRRRRRRDRRRDLUURUURDRRRULDDRDDRURRRDLUURUURDRRRRDDLUURDRRRDLUURUURDRRRULDDRDDRURRRDLUURUURDRRRRDDLUURDRRRRRLZDRGRGRGRDDRRULLDDRDREULUUUNMULLUUR", 
 	"settings":
 	{
 		"version": 2, 
@@ -162,7 +162,20 @@
 		{ "floor": 483, "eventType": "Twirl" },
 		{ "floor": 490, "eventType": "Twirl" },
 		{ "floor": 495, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
-		{ "floor": 495, "eventType": "PositionTrack", "positionOffset": [0, 1], "editorOnly": "Enabled" }
-		{ "floor": 496, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
+		{ "floor": 495, "eventType": "PositionTrack", "positionOffset": [0, -1], "editorOnly": "Enabled" },
+		{ "floor": 496, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 315, "bpmMultiplier": 2 },
+		{ "floor": 500, "eventType": "Twirl" },
+		{ "floor": 501, "eventType": "Twirl" },
+		{ "floor": 502, "eventType": "Twirl" },
+		{ "floor": 503, "eventType": "Twirl" },
+		{ "floor": 504, "eventType": "Twirl" },
+		{ "floor": 505, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
+		{ "floor": 507, "eventType": "Twirl" },
+		{ "floor": 515, "eventType": "Twirl" },
+		{ "floor": 516, "eventType": "Twirl" },
+		{ "floor": 517, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
+		{ "floor": 521, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
+		{ "floor": 528, "eventType": "Twirl" },
+		{ "floor": 529, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.25 }
 	]
 }
