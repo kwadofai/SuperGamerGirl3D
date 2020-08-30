@@ -1,5 +1,5 @@
 ﻿{
-	"pathData": "RRTLTTRFMRRRRRRRRUZRRRRRRRRURDLURRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRDRULDRULLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLDRULDRULDRULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLRRRRRRRRRRRRRRRRRRRDRRRDLUURUURDRRRULDDRDDRURRRDLUURUURDRRRRDDLUURDR", 
+	"pathData": "RRTLTTRFMRRRRRRRRUZRRRRRRRRURDLURRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRRDLLDRDRULDRULLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLZDLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLDRULDRULDRULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURDRUUURDDRRULDRUUURDRURDDDRUUURDDRRULDRUULRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLRRUURD!RDDDRUU!RRULDRUUU!RU!RDL!DDDRUUURD!RRDDLURDDLRRRRRRRRRRRRRRRRRRRDRRRDLUURUURDRRRULDDRDDRURRRDLUURUURDRRRRDDLUURDRRRDLUURUURDRRRULDDRDDRURRRDLUURUURDRRRRDDLUURDRRRRRL", 
 	"settings":
 	{
 		"version": 2, 
@@ -148,6 +148,21 @@
 		{ "floor": 430, "eventType": "Twirl" },
 		{ "floor": 432, "eventType": "Twirl" },
 		{ "floor": 436, "eventType": "Twirl" },
-		{ "floor": 443, "eventType": "Twirl" }
+		{ "floor": 443, "eventType": "Twirl" },
+		{ "floor": 446, "eventType": "Twirl" },
+		{ "floor": 451, "eventType": "Twirl" },
+		{ "floor": 453, "eventType": "Twirl" },
+		{ "floor": 455, "eventType": "Twirl" },
+		{ "floor": 463, "eventType": "Twirl" },
+		{ "floor": 465, "eventType": "Twirl" },
+		{ "floor": 467, "eventType": "Twirl" },
+		{ "floor": 475, "eventType": "Twirl" },
+		{ "floor": 477, "eventType": "Twirl" },
+		{ "floor": 479, "eventType": "Twirl" },
+		{ "floor": 483, "eventType": "Twirl" },
+		{ "floor": 490, "eventType": "Twirl" },
+		{ "floor": 495, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
+		{ "floor": 495, "eventType": "PositionTrack", "positionOffset": [0, 1], "editorOnly": "Enabled" }
+		{ "floor": 496, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
 	]
 }
