@@ -38,7 +38,7 @@
 		"trackDisappearAnimation": "None", 
 		"beatsBehind": 4,
 		"backgroundColor": "000000", 
-		"bgImage": "", 
+		"bgImage": "clear.png", 
 		"bgImageColor": "ffffff", 
 		"parallax": [100, 100], 
 		"bgDisplayMode": "FitToScreen", 
@@ -59,7 +59,6 @@
 	},
 	"actions":
 	[
-		{ "floor": 0, "eventType": "Flash", "duration": 0, "plane": "Background", "startColor": "000000", "startOpacity": 100, "endColor": "000000", "endOpacity": 100, "angleOffset": 0, "eventTag": "" },
 		{ "floor": 1, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
 		{ "floor": 2, "eventType": "SetHitsound", "hitsound": "Sizzle", "hitsoundVolume": 100 },
 		{ "floor": 3, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
@@ -67,7 +66,6 @@
 		{ "floor": 8, "eventType": "Twirl" },
 		{ "floor": 9, "eventType": "SetSpeed", "speedType": "Bpm", "beatsPerMinute": 120, "bpmMultiplier": 1 },
 		{ "floor": 10, "eventType": "SetSpeed", "speedType": "Bpm", "beatsPerMinute": 135, "bpmMultiplier": 1 },
-		{ "floor": 10, "eventType": "Flash", "duration": 0.5, "plane": "Background", "startColor": "000000", "startOpacity": 100, "endColor": "000000", "endOpacity": 0, "angleOffset": 0, "eventTag": "" }
 		{ "floor": 26, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
 		{ "floor": 28, "eventType": "Twirl" },
 		{ "floor": 33, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 },
@@ -289,6 +287,6 @@
 		{ "floor": 1090, "eventType": "Twirl" },
 		{ "floor": 1093, "eventType": "Twirl" },
 		{ "floor": 1095, "eventType": "Twirl" },
-		{ "floor": 1106, "eventType": "PositionTrack", "positionOffset": [1, 0], "editorOnly": "Enabled" },
+		{ "floor": 1106, "eventType": "PositionTrack", "positionOffset": [1, 0], "editorOnly": "Enabled" }
 	]
 }
