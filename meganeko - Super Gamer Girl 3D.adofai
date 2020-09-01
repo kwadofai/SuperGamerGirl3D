@@ -68,6 +68,7 @@
 		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_gamer.png", "position": [-3.5, 2.8], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_gamer" },
 		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_girl.png", "position": [-3.5, 1.6], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_girl" },
 		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_3D.png", "position": [-1.5, 1.6], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_3d" },
+		{ "floor": 1, "eventType": "SetFilter", "filter": "Arcade", "enabled": "Enabled", "intensity": 20, "disableOthers": "Disabled", "angleOffset": 0, "eventTag": "" },
 		{ "floor": 2, "eventType": "SetHitsound", "hitsound": "Sizzle", "hitsoundVolume": 100 },
 		{ "floor": 2, "eventType": "MoveCamera", "duration": 0.1, "relativeTo": "Tile", "position": [-1.5, 2], "rotation": -5, "zoom": 120, "angleOffset": 0, "ease": "OutSine", "eventTag": "" },
 		{ "floor": 3, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
@@ -78,8 +79,12 @@
 		{ "floor": 8, "eventType": "Twirl" },
 		{ "floor": 8, "eventType": "MoveDecorations", "duration": 0, "tag": "text_3d", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 130, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 9, "eventType": "SetSpeed", "speedType": "Bpm", "beatsPerMinute": 120, "bpmMultiplier": 1 },
+		{ "floor": 9, "eventType": "RecolorTrack", "startTile": [0, "Start"], "endTile": [0, "End"], "trackColorType": "Switch", "trackColor": "ca1b4b", "secondaryTrackColor": "ffffff", "trackColorAnimDuration": 0.2, "trackColorPulse": "Forward", "trackPulseLength": 10, "trackStyle": "NeonLight", "angleOffset": 0, "eventTag": "" },
+		{ "floor": 9, "eventType": "SetFilter", "filter": "Pixelate", "enabled": "Enabled", "intensity": 50, "disableOthers": "Disabled", "angleOffset": 0, "eventTag": "" },
 		{ "floor": 10, "eventType": "SetSpeed", "speedType": "Bpm", "beatsPerMinute": 135, "bpmMultiplier": 1 },
 		{ "floor": 10, "eventType": "AnimateTrack", "trackAnimation": "Extend", "beatsAhead": 2, "trackDisappearAnimation": "None", "beatsBehind": 4 },
+		{ "floor": 10, "eventType": "RecolorTrack", "startTile": [0, "Start"], "endTile": [0, "End"], "trackColorType": "Single", "trackColor": "ffffff", "secondaryTrackColor": "ffffff", "trackColorAnimDuration": 2, "trackColorPulse": "None", "trackPulseLength": 10, "trackStyle": "Neon", "angleOffset": 0, "eventTag": "" },
+		{ "floor": 10, "eventType": "SetFilter", "filter": "Grayscale", "enabled": "Disabled", "intensity": 100, "disableOthers": "Enabled", "angleOffset": 0, "eventTag": "" }
 		{ "floor": 26, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
 		{ "floor": 28, "eventType": "Twirl" },
 		{ "floor": 33, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 },
@@ -301,6 +306,6 @@
 		{ "floor": 1090, "eventType": "Twirl" },
 		{ "floor": 1093, "eventType": "Twirl" },
 		{ "floor": 1095, "eventType": "Twirl" },
-		{ "floor": 1106, "eventType": "PositionTrack", "positionOffset": [1, 0], "editorOnly": "Enabled" }
+		{ "floor": 1106, "eventType": "PositionTrack", "positionOffset": [1, 0], "editorOnly": "Enabled" },
 	]
 }
