@@ -86,8 +86,14 @@
 		{ "floor": 10, "eventType": "AnimateTrack", "trackAnimation": "Extend", "beatsAhead": 2.5, "trackDisappearAnimation": "None", "beatsBehind": 4 },
 		{ "floor": 10, "eventType": "RecolorTrack", "startTile": [0, "Start"], "endTile": [0, "End"], "trackColorType": "Single", "trackColor": "ffffff", "secondaryTrackColor": "ffffff", "trackColorAnimDuration": 2, "trackColorPulse": "None", "trackPulseLength": 10, "trackStyle": "Neon", "angleOffset": 0, "eventTag": "" },
 		{ "floor": 10, "eventType": "SetFilter", "filter": "Grayscale", "enabled": "Disabled", "intensity": 100, "disableOthers": "Enabled", "angleOffset": 0, "eventTag": "" },
-		{ "floor": 10, "eventType": "MoveCamera", "duration": 2, "relativeTo": "Player", "position": [0, 0], "rotation": 0, "zoom": 120, "angleOffset": 0, "ease": "OutExpo", "eventTag": "" },
-		{ "floor": 13, "eventType": "AnimateTrack", "trackAnimation": "None", "beatsAhead": 3, "trackDisappearAnimation": "None", "beatsBehind": 4 }
+		{ "floor": 10, "eventType": "MoveCamera", "duration": 2.5, "relativeTo": "Player", "position": [0, 0], "rotation": 0, "zoom": 120, "angleOffset": 0, "ease": "OutExpo", "eventTag": "" },
+		{ "floor": 10, "eventType": "MoveDecorations", "duration": 0, "tag": "text_super", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
+		{ "floor": 10, "eventType": "MoveDecorations", "duration": 0, "tag": "text_gamer", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
+		{ "floor": 10, "eventType": "MoveDecorations", "duration": 0, "tag": "text_girl", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
+		{ "floor": 10, "eventType": "MoveDecorations", "duration": 0, "tag": "text_3d", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
+		{ "floor": 10, "eventType": "MoveTrack", "startTile": [0, "Start"], "endTile": [-1, "ThisTile"], "duration": 2, "positionOffset": [-2, 1.5], "rotationOffset": 60, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "OutExpo", "eventTag": "" },
+		{ "floor": 13, "eventType": "AnimateTrack", "trackAnimation": "None", "beatsAhead": 3, "trackDisappearAnimation": "None", "beatsBehind": 4 },
+		{ "floor": 13, "eventType": "MoveCamera", "duration": 0, "relativeTo": "Player", "position": [0, 0], "rotation": 0, "zoom": 120, "angleOffset": 0, "ease": "Linear", "eventTag": "" }
 		{ "floor": 26, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
 		{ "floor": 28, "eventType": "Twirl" },
 		{ "floor": 33, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 },
