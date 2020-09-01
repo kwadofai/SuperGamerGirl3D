@@ -3,8 +3,8 @@
 	"settings":
 	{
 		"version": 2, 
-		"artist": "meganeko", 
-		"song": "Super Gamer Girl 3D", 
+		"artist": "<size=-1>meganeko", 
+		"song": "Super Gamer Girl 3D</size>", 
 		"author": "Tronix, Rio", 
 		"separateCountdownTime": "Enabled", 
 		"previewImage": "", 
