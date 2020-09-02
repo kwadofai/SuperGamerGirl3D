@@ -95,7 +95,7 @@
 		{ "floor": 9, "eventType": "MoveDecorations", "duration": 0, "tag": "text_girl", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 100, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 9, "eventType": "MoveDecorations", "duration": 0, "tag": "text_3d", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 130, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 9, "eventType": "Flash", "duration": 0.333333, "plane": "Foreground", "startColor": "000000", "startOpacity": 0, "endColor": "000000", "endOpacity": 100, "angleOffset": 120, "eventTag": "" },
-		{ "floor": 9, "eventType": "MoveTrack", "startTile": [1, "ThisTile"], "endTile": [11, "ThisTile"], "duration": 1, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 100, "opacity": 100, "angleOffset": 0, "ease": "OutSine", "eventTag": "" }
+		{ "floor": 9, "eventType": "MoveTrack", "startTile": [1, "ThisTile"], "endTile": [11, "ThisTile"], "duration": 1, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 100, "opacity": 100, "angleOffset": 0, "ease": "OutSine", "eventTag": "" },
 		{ "floor": 10, "eventType": "SetSpeed", "speedType": "Bpm", "beatsPerMinute": 135, "bpmMultiplier": 1 },
 		{ "floor": 10, "eventType": "RecolorTrack", "startTile": [0, "Start"], "endTile": [0, "End"], "trackColorType": "Single", "trackColor": "ffffff", "secondaryTrackColor": "ffffff", "trackColorAnimDuration": 2, "trackColorPulse": "None", "trackPulseLength": 10, "trackStyle": "Neon", "angleOffset": 0, "eventTag": "" },
 		{ "floor": 10, "eventType": "SetFilter", "filter": "Grayscale", "enabled": "Disabled", "intensity": 100, "disableOthers": "Enabled", "angleOffset": 0, "eventTag": "" },
@@ -111,6 +111,7 @@
 		{ "floor": 26, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
 		{ "floor": 28, "eventType": "Twirl" },
 		{ "floor": 33, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 },
+		{ "floor": 33, "eventType": "SetFilter", "filter": "Arcade", "enabled": "Enabled", "intensity": 100, "disableOthers": "Enabled", "angleOffset": 0, "eventTag": "" }
 		{ "floor": 36, "eventType": "Twirl" },
 		{ "floor": 39, "eventType": "Twirl" },
 		{ "floor": 42, "eventType": "Twirl" },
