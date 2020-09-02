@@ -111,7 +111,9 @@
 		{ "floor": 26, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
 		{ "floor": 28, "eventType": "Twirl" },
 		{ "floor": 33, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 },
-		{ "floor": 33, "eventType": "SetFilter", "filter": "Arcade", "enabled": "Enabled", "intensity": 100, "disableOthers": "Enabled", "angleOffset": 0, "eventTag": "" }
+		{ "floor": 33, "eventType": "SetFilter", "filter": "Arcade", "enabled": "Enabled", "intensity": 100, "disableOthers": "Enabled", "angleOffset": 0, "eventTag": "" },
+		{ "floor": 33, "eventType": "RecolorTrack", "startTile": [0, "ThisTile"], "endTile": [49, "ThisTile"], "trackColorType": "Switch", "trackColor": "ca1b4b", "secondaryTrackColor": "ffffff", "trackColorAnimDuration": 0.4444444, "trackColorPulse": "Forward", "trackPulseLength": 2, "trackStyle": "Neon", "angleOffset": 0, "eventTag": "" },
+		{ "floor": 33, "eventType": "MoveTrack", "startTile": [0, "ThisTile"], "endTile": [49, "ThisTile"], "duration": 0, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 92, "opacity": 100, "angleOffset": 0, "ease": "Linear", "eventTag": "" }
 		{ "floor": 36, "eventType": "Twirl" },
 		{ "floor": 39, "eventType": "Twirl" },
 		{ "floor": 42, "eventType": "Twirl" },
