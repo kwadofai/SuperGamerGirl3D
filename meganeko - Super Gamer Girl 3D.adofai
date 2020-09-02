@@ -113,7 +113,13 @@
 		{ "floor": 33, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 },
 		{ "floor": 33, "eventType": "SetFilter", "filter": "Arcade", "enabled": "Enabled", "intensity": 100, "disableOthers": "Enabled", "angleOffset": 0, "eventTag": "" },
 		{ "floor": 33, "eventType": "RecolorTrack", "startTile": [0, "ThisTile"], "endTile": [49, "ThisTile"], "trackColorType": "Switch", "trackColor": "ca1b4b", "secondaryTrackColor": "ffffff", "trackColorAnimDuration": 0.4444444, "trackColorPulse": "Forward", "trackPulseLength": 2, "trackStyle": "Neon", "angleOffset": 0, "eventTag": "" },
-		{ "floor": 33, "eventType": "MoveTrack", "startTile": [0, "ThisTile"], "endTile": [49, "ThisTile"], "duration": 0, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 92, "opacity": 100, "angleOffset": 0, "ease": "Linear", "eventTag": "" }
+		{ "floor": 33, "eventType": "MoveTrack", "startTile": [0, "ThisTile"], "endTile": [49, "ThisTile"], "duration": 0, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 92, "opacity": 100, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
+		{ "floor": 33, "eventType": "MoveTrack", "startTile": [-1, "ThisTile"], "endTile": [-1, "ThisTile"], "duration": 0, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
+		{ "floor": 33, "eventType": "MoveTrack", "startTile": [-2, "ThisTile"], "endTile": [-2, "ThisTile"], "duration": 1.5, "positionOffset": [-1, -1], "rotationOffset": 0, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "OutSine", "eventTag": "" },
+		{ "floor": 33, "eventType": "MoveTrack", "startTile": [-3, "ThisTile"], "endTile": [-3, "ThisTile"], "duration": 1.5, "positionOffset": [1, -1], "rotationOffset": 0, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "OutSine", "eventTag": "" },
+		{ "floor": 33, "eventType": "MoveTrack", "startTile": [-4, "ThisTile"], "endTile": [-4, "ThisTile"], "duration": 1.5, "positionOffset": [1, 1], "rotationOffset": 0, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "OutSine", "eventTag": "" },
+		{ "floor": 33, "eventType": "MoveTrack", "startTile": [-5, "ThisTile"], "endTile": [-5, "ThisTile"], "duration": 1.5, "positionOffset": [-1, 1], "rotationOffset": 0, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "OutSine", "eventTag": "" },
+		{ "floor": 33, "eventType": "MoveTrack", "startTile": [10, "Start"], "endTile": [-6, "ThisTile"], "duration": 1.5, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 0, "opacity": 0, "angleOffset": 0, "ease": "OutSine", "eventTag": "" }
 		{ "floor": 36, "eventType": "Twirl" },
 		{ "floor": 39, "eventType": "Twirl" },
 		{ "floor": 42, "eventType": "Twirl" },
