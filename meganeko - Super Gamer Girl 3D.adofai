@@ -59,19 +59,18 @@
 	},
 	"actions":
 	[
-		{ "floor": 0, "eventType": "MoveTrack", "startTile": [2, "ThisTile"], "endTile": [9, "ThisTile"], "duration": 0, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 150, "opacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
+		{ "floor": 0, "eventType": "MoveTrack", "startTile": [2, "ThisTile"], "endTile": [9, "ThisTile"], "duration": 0, "positionOffset": [0, 0.3], "rotationOffset": 0, "scale": 200, "opacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 1, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
-		{ "floor": 1, "eventType": "MoveTrack", "startTile": [1, "ThisTile"], "endTile": [8, "ThisTile"], "duration": 0.9, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 100, "opacity": 100, "angleOffset": 0, "ease": "OutSine", "eventTag": "" },
-		{ "floor": 1, "eventType": "Flash", "duration": 1.5, "plane": "Foreground", "startColor": "000000", "startOpacity": 100, "endColor": "000000", "endOpacity": 0, "angleOffset": 0, "eventTag": "" },
+		{ "floor": 1, "eventType": "MoveTrack", "startTile": [1, "ThisTile"], "endTile": [8, "ThisTile"], "duration": 0.8, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 100, "opacity": 100, "angleOffset": 0, "ease": "OutQuad", "eventTag": "" },
 		{ "floor": 1, "eventType": "MoveCamera", "duration": 1, "relativeTo": "Player", "position": [0, 0], "rotation": 0, "zoom": 120, "angleOffset": 0, "ease": "OutSine", "eventTag": "" },
 		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_super.png", "position": [-4, 4], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_super" },
-		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_gamer.png", "position": [-3.5, 2.8], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_gamer" },
-		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_girl.png", "position": [-3.5, 1.6], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_girl" },
-		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_3d.png", "position": [-1.5, 1.6], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_3d" },
+		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_gamer.png", "position": [-3.5, 3], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_gamer" },
+		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_girl.png", "position": [-3.5, 2], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_girl" },
+		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_3d.png", "position": [-1.5, 1.8], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_3d" },
 		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_super_dark.png", "position": [-4, 4], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_super_dark" },
-		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_gamer_dark.png", "position": [-3.5, 2.8], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_gamer_dark" },
-		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_girl_dark.png", "position": [-3.5, 1.6], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_girl_dark" },
-		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_3d_dark.png", "position": [-1.5, 1.6], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_3d_dark" },
+		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_gamer_dark.png", "position": [-3.5, 3], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_gamer_dark" },
+		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_girl_dark.png", "position": [-3.5, 2], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_girl_dark" },
+		{ "floor": 1, "eventType": "AddDecoration", "decorationImage": "obj_3d_dark.png", "position": [-1.5, 1.8], "relativeTo": "Tile", "pivotOffset": [0, 0], "rotation": 0, "scale": 0, "depth": 0, "tag": "text_3d_dark" },
 		{ "floor": 1, "eventType": "SetFilter", "filter": "Arcade", "enabled": "Enabled", "intensity": 20, "disableOthers": "Disabled", "angleOffset": 0, "eventTag": "" },
 		{ "floor": 2, "eventType": "SetHitsound", "hitsound": "Sizzle", "hitsoundVolume": 100 },
 		{ "floor": 2, "eventType": "MoveCamera", "duration": 0.1, "relativeTo": "Tile", "position": [-1.7, 2], "rotation": -5, "zoom": 120, "angleOffset": 0, "ease": "OutSine", "eventTag": "" },
@@ -104,8 +103,8 @@
 		{ "floor": 10, "eventType": "MoveDecorations", "duration": 0, "tag": "text_gamer", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 10, "eventType": "MoveDecorations", "duration": 0, "tag": "text_girl", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 10, "eventType": "MoveDecorations", "duration": 0, "tag": "text_3d", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
-		{ "floor": 10, "eventType": "MoveTrack", "startTile": [0, "Start"], "endTile": [-1, "ThisTile"], "duration": 2, "positionOffset": [-2, 1.5], "rotationOffset": 60, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "OutExpo", "eventTag": "" },
-		{ "floor": 10, "eventType": "Flash", "duration": 1, "plane": "Foreground", "startColor": "000000", "startOpacity": 100, "endColor": "000000", "endOpacity": 0, "angleOffset": 0, "eventTag": "" }
+		{ "floor": 10, "eventType": "MoveTrack", "startTile": [0, "Start"], "endTile": [-1, "ThisTile"], "duration": 2.5, "positionOffset": [-2.6, 1.5], "rotationOffset": 60, "scale": 80, "opacity": 0, "angleOffset": 0, "ease": "OutQuint", "eventTag": "" },
+		{ "floor": 10, "eventType": "Flash", "duration": 1.5, "plane": "Foreground", "startColor": "000000", "startOpacity": 100, "endColor": "000000", "endOpacity": 0, "angleOffset": 0, "eventTag": "" },
 		{ "floor": 13, "eventType": "AnimateTrack", "trackAnimation": "None", "beatsAhead": 3, "trackDisappearAnimation": "None", "beatsBehind": 4 },
 		{ "floor": 13, "eventType": "MoveCamera", "duration": 0, "relativeTo": "Player", "position": [0, 0], "rotation": 0, "zoom": 120, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 26, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
@@ -329,6 +328,6 @@
 		{ "floor": 1090, "eventType": "Twirl" },
 		{ "floor": 1093, "eventType": "Twirl" },
 		{ "floor": 1095, "eventType": "Twirl" },
-		{ "floor": 1106, "eventType": "PositionTrack", "positionOffset": [1, 0], "editorOnly": "Enabled" },
+		{ "floor": 1106, "eventType": "PositionTrack", "positionOffset": [1, 0], "editorOnly": "Enabled" }
 	]
 }
