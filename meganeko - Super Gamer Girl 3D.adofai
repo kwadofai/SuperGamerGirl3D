@@ -181,7 +181,7 @@
 		{ "floor": 180, "eventType": "MoveTrack", "startTile": [0, "ThisTile"], "endTile": [0, "ThisTile"], "duration": 1, "positionOffset": [-2, 0], "rotationOffset": 0, "scale": 100, "opacity": 100, "angleOffset": 0, "ease": "OutExpo", "eventTag": "" },
 		{ "floor": 180, "eventType": "MoveTrack", "startTile": [0, "ThisTile"], "endTile": [0, "ThisTile"], "duration": 1, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 100, "opacity": 100, "angleOffset": 180, "ease": "InExpo", "eventTag": "" },
 		{ "floor": 180, "eventType": "MoveTrack", "startTile": [0, "Start"], "endTile": [-1, "ThisTile"], "duration": 0.3, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
-		{ "floor": 180, "eventType": "MoveCamera", "duration": 1, "relativeTo": "Tile", "position": [0, 0], "rotation": 90, "zoom": 80, "angleOffset": 0, "ease": "OutExpo", "eventTag": "" },
+		{ "floor": 180, "eventType": "MoveCamera", "duration": 1, "relativeTo": "Tile", "position": [-1, 0], "rotation": 90, "zoom": 80, "angleOffset": 0, "ease": "OutExpo", "eventTag": "" },
 		{ "floor": 180, "eventType": "MoveCamera", "duration": 1, "relativeTo": "Tile", "position": [4.5, 3], "rotation": 80, "zoom": 170, "angleOffset": 180, "ease": "InSine", "eventTag": "" },
 		{ "floor": 180, "eventType": "SetFilter", "filter": "Grayscale", "enabled": "Disabled", "intensity": 100, "disableOthers": "Enabled", "angleOffset": 0, "eventTag": "" }
 		{ "floor": 181, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 },
