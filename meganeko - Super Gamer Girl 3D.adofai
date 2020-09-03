@@ -108,6 +108,7 @@
 		{ "floor": 10, "eventType": "MoveDecorations", "duration": 0, "tag": "text_girl", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 10, "eventType": "MoveDecorations", "duration": 0, "tag": "text_gamer", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 10, "eventType": "MoveDecorations", "duration": 0, "tag": "text_3d", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
+		{ "floor": 10, "eventType": "CustomBackground", "color": "000000", "bgImage": "bg_dark_tile.png", "imageColor": "ffffff", "parallax": [50, 50], "bgDisplayMode": "Tiled", "lockRot": "Disabled", "loopBG": "Enabled", "unscaledSize": 100, "angleOffset": 0, "eventTag": "" }
 		{ "floor": 17, "eventType": "SetFilter", "filter": "Grayscale", "enabled": "Enabled", "intensity": 100, "disableOthers": "Disabled", "angleOffset": 0, "eventTag": "" },
 		{ "floor": 20, "eventType": "SetFilter", "filter": "Arcade", "enabled": "Enabled", "intensity": 100, "disableOthers": "Enabled", "angleOffset": 0, "eventTag": "" },
 		{ "floor": 26, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
@@ -366,6 +367,6 @@
 		{ "floor": 1090, "eventType": "Twirl" },
 		{ "floor": 1093, "eventType": "Twirl" },
 		{ "floor": 1095, "eventType": "Twirl" },
-		{ "floor": 1106, "eventType": "PositionTrack", "positionOffset": [1, 0], "editorOnly": "Enabled" }
+		{ "floor": 1106, "eventType": "PositionTrack", "positionOffset": [1, 0], "editorOnly": "Enabled" },
 	]
 }
