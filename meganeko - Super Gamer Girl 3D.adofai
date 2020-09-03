@@ -109,6 +109,7 @@
 		{ "floor": 10, "eventType": "MoveDecorations", "duration": 0, "tag": "text_gamer", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 10, "eventType": "MoveDecorations", "duration": 0, "tag": "text_3d", "positionOffset": [0, 0], "rotationOffset": 0, "scale": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 10, "eventType": "CustomBackground", "color": "000000", "bgImage": "bg_dark_tile.png", "imageColor": "ffffff", "parallax": [50, 50], "bgDisplayMode": "Tiled", "lockRot": "Disabled", "loopBG": "Enabled", "unscaledSize": 100, "angleOffset": 0, "eventTag": "" },
+		{ "floor": 11, "eventType": "MoveTrack", "startTile": [181, "Start"], "endTile": [376, "Start"], "duration": 0, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 17, "eventType": "SetFilter", "filter": "Grayscale", "enabled": "Enabled", "intensity": 100, "disableOthers": "Disabled", "angleOffset": 0, "eventTag": "" },
 		{ "floor": 20, "eventType": "SetFilter", "filter": "Arcade", "enabled": "Enabled", "intensity": 100, "disableOthers": "Enabled", "angleOffset": 0, "eventTag": "" },
 		{ "floor": 26, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
@@ -183,12 +184,20 @@
 		{ "floor": 180, "eventType": "MoveTrack", "startTile": [0, "Start"], "endTile": [-1, "ThisTile"], "duration": 0.3, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
 		{ "floor": 180, "eventType": "MoveCamera", "duration": 1, "relativeTo": "Tile", "position": [-1, 0], "rotation": 90, "zoom": 80, "angleOffset": 0, "ease": "OutExpo", "eventTag": "" },
 		{ "floor": 180, "eventType": "MoveCamera", "duration": 1, "relativeTo": "Tile", "position": [4.5, 3], "rotation": 80, "zoom": 170, "angleOffset": 180, "ease": "InSine", "eventTag": "" },
-		{ "floor": 180, "eventType": "SetFilter", "filter": "Grayscale", "enabled": "Disabled", "intensity": 100, "disableOthers": "Enabled", "angleOffset": 0, "eventTag": "" }
+		{ "floor": 180, "eventType": "SetFilter", "filter": "Grayscale", "enabled": "Disabled", "intensity": 100, "disableOthers": "Enabled", "angleOffset": 0, "eventTag": "" },
+		{ "floor": 180, "eventType": "MoveTrack", "startTile": [1, "ThisTile"], "endTile": [24, "ThisTile"], "duration": 0, "positionOffset": [0, 0], "rotationOffset": 60, "scale": 200, "opacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "" },
+		{ "floor": 180, "eventType": "MoveTrack", "startTile": [1, "ThisTile"], "endTile": [24, "ThisTile"], "duration": 1, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 100, "opacity": 100, "angleOffset": 270, "ease": "OutQuart", "eventTag": "" },
 		{ "floor": 181, "eventType": "SetHitsound", "hitsound": "Kick", "hitsoundVolume": 100 },
+		{ "floor": 182, "eventType": "MoveCamera", "duration": 0, "relativeTo": "LastPosition", "position": [0, 0], "rotation": 0, "zoom": 185, "angleOffset": 0, "ease": "Linear", "eventTag": "cam_pumping_1" },
+		{ "floor": 182, "eventType": "MoveCamera", "duration": 0.3, "relativeTo": "LastPosition", "position": [0, 0], "rotation": 0, "zoom": 170, "angleOffset": 0, "ease": "OutSine", "eventTag": "cam_pumping_1" },
+		{ "floor": 182, "eventType": "RepeatEvents", "repetitions": 6, "interval": 2, "tag": "cam_pumping_1" },
 		{ "floor": 184, "eventType": "Twirl" },
 		{ "floor": 186, "eventType": "Twirl" },
 		{ "floor": 190, "eventType": "Twirl" },
 		{ "floor": 193, "eventType": "Twirl" },
+		{ "floor": 195, "eventType": "MoveTrack", "startTile": [10, "ThisTile"], "endTile": [31, "ThisTile"], "duration": 0.5, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "Linear", "eventTag": "tile_blink_drop_1" },
+		{ "floor": 195, "eventType": "MoveTrack", "startTile": [10, "ThisTile"], "endTile": [31, "ThisTile"], "duration": 0.5, "positionOffset": [0, 0], "rotationOffset": 0, "scale": 100, "opacity": 30, "angleOffset": 90, "ease": "Linear", "eventTag": "tile_blink_drop_1" },
+		{ "floor": 195, "eventType": "RepeatEvents", "repetitions": 4, "interval": 1, "tag": "tile_blink_drop_1" },
 		{ "floor": 202, "eventType": "Twirl" },
 		{ "floor": 204, "eventType": "Twirl" },
 		{ "floor": 206, "eventType": "Twirl" },
@@ -373,6 +382,6 @@
 		{ "floor": 1090, "eventType": "Twirl" },
 		{ "floor": 1093, "eventType": "Twirl" },
 		{ "floor": 1095, "eventType": "Twirl" },
-		{ "floor": 1106, "eventType": "PositionTrack", "positionOffset": [1, 0], "editorOnly": "Enabled" },
+		{ "floor": 1106, "eventType": "PositionTrack", "positionOffset": [1, 0], "editorOnly": "Enabled" }
 	]
 }
