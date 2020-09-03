@@ -157,7 +157,7 @@
 		{ "floor": 76, "eventType": "Twirl" },
 		{ "floor": 79, "eventType": "MoveTrack", "startTile": [-7, "ThisTile"], "endTile": [-5, "ThisTile"], "duration": 3, "positionOffset": [-2, 1], "rotationOffset": -40, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "OutExpo", "eventTag": "" },
 		{ "floor": 79, "eventType": "AnimateTrack", "trackAnimation": "None", "beatsAhead": 3, "trackDisappearAnimation": "Fade", "beatsBehind": 0 },
-		{ "floor": 79, "eventType": "MoveTrack", "startTile": [-4, "ThisTile"], "endTile": [-1, "ThisTile"], "duration": 3, "positionOffset": [2, -1], "rotationOffset": 40, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "OutExpo", "eventTag": "" }
+		{ "floor": 79, "eventType": "MoveTrack", "startTile": [-4, "ThisTile"], "endTile": [-1, "ThisTile"], "duration": 3, "positionOffset": [2, -1], "rotationOffset": 40, "scale": 100, "opacity": 0, "angleOffset": 0, "ease": "OutExpo", "eventTag": "" },
 		{ "floor": 83, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
 		{ "floor": 83, "eventType": "SetHitsound", "hitsound": "Chuck", "hitsoundVolume": 100 },
 		{ "floor": 83, "eventType": "AnimateTrack", "trackAnimation": "None", "beatsAhead": 3, "trackDisappearAnimation": "None", "beatsBehind": 4 },
@@ -209,6 +209,7 @@
 		{ "floor": 363, "eventType": "Twirl" },
 		{ "floor": 376, "eventType": "PositionTrack", "positionOffset": [0, -6], "editorOnly": "Enabled" },
 		{ "floor": 376, "eventType": "Twirl" },
+		{ "floor": 376, "eventType": "AnimateTrack", "trackAnimation": "Fade", "beatsAhead": 3, "trackDisappearAnimation": "None", "beatsBehind": 4 }
 		{ "floor": 377, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
 		{ "floor": 389, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 2 },
 		{ "floor": 397, "eventType": "SetSpeed", "speedType": "Multiplier", "beatsPerMinute": 100, "bpmMultiplier": 0.5 },
